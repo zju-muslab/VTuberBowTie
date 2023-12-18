@@ -1,0 +1,13 @@
+**/**.wav
+**/**.pth
+**/**.pkl
+**/**.ckpt
+**/**.t7
+**/**.png
+**/**.log
+**/**.pyc
+wandb/**
+**/**wandb**
+**/**tfevents**
+**/Data/**/**
+**/Utils/**/**

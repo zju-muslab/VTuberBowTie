@@ -1,0 +1,4 @@
+恢复了f0
+model上删去了rnn
+losses全部改为和starganvc一样
+输入输出改为了vocoder格式

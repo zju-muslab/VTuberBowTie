@@ -1,0 +1,27 @@
+run: 'runs/1321_CRN_main_causalF0_ConvLstm_live'
+model_dir: 'Models/1321_CRN_main_causalF0_ConvLstm'
+
+model_name: 'model.pth'
+config_name: 'config.yml'
+vocoder_path: "Utils/Vocoder/mbmelgan_vctk_causal_for_crn_uncenterSTFTv2/checkpoint-1100000steps.pkl"
+f0_path: 'Utils/pitch_extractor/model.pth'
+vad_path: 'Utils/silero-vad'
+
+norm_stats_path: "Utils/stats/vctk_vocoder_stats.h5"
+
+device: 'cuda:0'
+CHUNK: 4800
+
+fft_param: 1
+NFFT: 2048
+NHOP: 300
+NWINDOW: 1200
+SR: 24000
+NMEL: 80
+
+
+OUTPUT_DEVICE_INDEX: 4
+INPUT_DEVICE_INDEX: 1
+
+VAD_SAMPLE_RATE: 8000
+VAD_THTRESHOLD: 0.2
