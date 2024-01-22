@@ -16,7 +16,7 @@ conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=
 pip install -r requirements.txt
 ```
 
-3. Download data and model checkpoints from [google drive](https://drive.google.com/drive/folders/1udlOjOLfOz1sOuUsXJB4dxTSxYbkGanc?usp=sharing), then extract the corresponding files based on the specified file paths within the compressed package..
+3. Download data and model checkpoints from [Google Drive](https://drive.google.com/drive/folders/1udlOjOLfOz1sOuUsXJB4dxTSxYbkGanc?usp=sharing), then extract the corresponding files based on the specified file paths within the compressed package..
 
 4. Download Virtual Audio Interafce such as [VAC](https://vac.muzychenko.net/en/) for windows or [SoundFlower](https://github.com/mattingalls/Soundflower) for Mac. This is necessary to route audio to other applications.
 
