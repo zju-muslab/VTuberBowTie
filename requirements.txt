@@ -1,0 +1,12 @@
+munch
+numpy
+librosa>=0.8.0
+matplotlib>=3.1.0
+yaml
+pyaudio
+pydub
+tqdm
+h5py>=2.9.0
+yq>=2.10.0
+soundfile>=0.10.2
+setuptools>=38.5.1

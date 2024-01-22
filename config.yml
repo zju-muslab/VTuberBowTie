@@ -1,5 +1,5 @@
-run: 'runs/1321_CRN_main_causalF0_ConvLstm_live'
-model_dir: 'Models/1321_CRN_main_causalF0_ConvLstm'
+run: 'runs'
+model_dir: 'Models'
 
 model_name: 'model.pth'
 config_name: 'config.yml'
